@@ -23,6 +23,10 @@ main{
     padding: 33px 33px 30px 42px;
     margin-top: 36px;
 }
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 20px 0px;
+}
 
 /*-----------------
    header style
@@ -91,3 +95,34 @@ nav img{
 }
 
 /* top player ends */
+
+/* top blog starts here */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 16px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    
+}
+.blog .blog-thamb img{
+    width: 177px;
+    height: 117px;
+    border-radius: 21px;
+}
+.blog-details{
+    margin-left: 16px;
+}
+.blog-details h2{
+    font-size: 20px;
+}
+.blog-details p{
+    font-size: 16px;
+    color:#9F9F9F;
+}
+.blog-details a{
+    text-decoration: none;
+}
+/* blog ends here */
