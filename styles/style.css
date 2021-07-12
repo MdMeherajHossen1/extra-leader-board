@@ -3,12 +3,31 @@
 /* common and utilities style */
 body{
     font-family: 'Poppins', sans-serif;
-    margin: opx;
+    margin: 0;
+    background-color: #9F9F9F;
+}
+.title{
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 870px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 33px 33px 30px 42px;
+    margin-top: 36px;
 }
 
 /*-----------------
    header style
 ------------------ */
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -50,3 +69,25 @@ nav img{
     color: gray;
 }
 /*----------header ends here */
+
+/* -------top player and top blog starts here */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+.player h1{
+    font-size: 18px;
+    margin-left: 18px;
+}
+
+/* top player ends */
