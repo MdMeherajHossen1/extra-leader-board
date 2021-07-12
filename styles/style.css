@@ -15,6 +15,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .container{
     width: 870px;
@@ -126,3 +127,54 @@ nav img{
     text-decoration: none;
 }
 /* blog ends here */
+
+/* course starts here */
+.courses{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 35px;
+}
+.course{
+    border-radius: 21px;
+    box-shadow: 4px 8px 16px rgb(245, 239, 239);
+    padding: 10px;
+    
+}
+.course-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.course-details h1{
+    font-size: 20px;
+}
+.course-details h4{
+    color: #ED6B4F;
+    font-size: 15px
+}
+.course-details p{
+    font-size: 14px;
+    color: gray;
+}
+.course-cover img{
+    width: 224px;
+    height: 104px;
+    border-radius: 21px;
+}
+.fa-star{
+    font-size: 14px;
+}
+.fa-star.filled{
+    color:  #FFC014;
+}
+.fa-star.empty{
+    color: gray;
+}
+.course-duration{
+    color: #FF4A60;
+    background-color: #ff4a5f60;
+    border-radius: 21px;
+    padding: 3px;
+}
